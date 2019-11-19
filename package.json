@@ -1,0 +1,11 @@
+{
+  "name": "setup-brewkit",
+  "version": "1.0.0",
+  "description": "Sets up a Brewkit project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lawren",
+  "license": "MIT"
+}

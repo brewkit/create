@@ -1,0 +1,78 @@
+{
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Snap-AV/brewkit.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Snap-AV/brewkit/issues"
+    },
+    "homepage": "https://github.com/Snap-AV/brewkit#readme",
+    "scripts": {
+        "test:generate-output": "jest --watchAll --json --outputFile=.build/jest/test-results.json || true",
+        "test": "jest --watchAll --json --outputFile=.build/jest/test-results.json",
+        "start": "webpack-dev-server --mode=development --env.development --config config/webpack/webpack.common.js --open"
+    },
+    "jest": {
+        "setupFiles": [
+            "<rootDir>/.build/jest/register-context.js"
+        ],
+        "setupFilesAfterEnv": [
+            "<rootDir>/.build/jest/setupTests.js"
+        ],
+        "moduleNameMapper": {
+            "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|md)$": "<rootDir>/.build/jest/mocks/fileMock.js",
+            "^.+\\.(css|less|scss)$": "identity-obj-proxy"
+        }
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.4",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/plugin-proposal-json-strings": "^7.2.0",
+        "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/plugin-syntax-import-meta": "^7.2.0",
+        "@babel/plugin-transform-object-assign": "^7.2.0",
+        "@babel/preset-env": "^7.6.3",
+        "@babel/preset-react": "^7.6.3",
+        "@babel/preset-typescript": "^7.6.0",
+        "@types/enzyme": "^3.10.3",
+        "@types/jest": "^24.0.21",
+        "@types/node": "^12.12.5",
+        "@types/react": "^16.9.11",
+        "@types/react-dom": "^16.9.3",
+        "babel-eslint": "^10.0.3",
+        "babel-jest": "^24.9.0",
+        "babel-loader": "^8.0.5",
+        "babel-plugin-require-context-hook": "^1.0.0",
+        "circular-dependency-plugin": "^5.2.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "html-webpack-plugin": "^3.2.0",
+        "identity-obj-proxy": "^3.0.0",
+        "jest": "^24.9.0",
+        "mini-css-extract-plugin": "^0.8.0",
+        "node-sass": "^4.13.0",
+        "react": "^16.11.0",
+        "react-dom": "^16.11.0",
+        "react-flip-toolkit": "^7.0.6",
+        "react-hot-loader": "^4.12.15",
+        "sass-loader": "^8.0.0",
+        "terser-webpack-plugin": "^2.2.1",
+        "typescript": "^3.6.4",
+        "typescript-plugin-css-modules": "^2.0.2",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.9.0"
+    },
+    "peerDependencies": {
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "dependencies": {
+        "@types/react-router-dom": "^5.1.2",
+        "clsx": "^1.0.4",
+        "lodash": "^4.17.15",
+        "react-router-dom": "^5.1.2"
+    }
+}
