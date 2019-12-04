@@ -102,8 +102,8 @@ module.exports = (env, props) => {
     config.module = {
         rules: [
             {
-                test: /\.tsx?$/,
-                exclude: [/node_modules/],
+                test: /\.([tj])sx?$/,
+                exclude: /node_modules\/(?!(@?brewkit)\/).*/,
                 use: [
                     {
                         loader: 'babel-loader',
@@ -131,7 +131,6 @@ module.exports = (env, props) => {
                 use: [
                     {
                         loader: 'style-loader', //  interprets @import and url() like import/require() and will resolve them.
-                        options: { singleton: true }
                     },
                     {
                         loader: 'css-loader', //  interprets @import and url() like import/require() and will resolve them.
@@ -160,6 +159,9 @@ module.exports = (env, props) => {
                         options: {
                             sourceMap: true,
                         },
+                    },
+                    {
+                        loader: '@brewkit/loader',
                     }
                 ],
             },

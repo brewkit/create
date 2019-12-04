@@ -1,11 +1,24 @@
 {
-  "name": "setup-brewkit",
-  "version": "1.0.0",
-  "description": "Sets up a Brewkit project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "lawren",
-  "license": "MIT"
+    "name": "@brewkit/create",
+    "version": "1.0.20",
+    "description": "Create a ready-to-go Brewkit project without any additional configuration.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brewkit/create"
+    },
+    "author": "lawren",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Snap-AV/brewkit/issues"
+    },
+    "homepage": "https://github.com/Snap-AV/brewkit#readme",
+    "bin": {
+        "create": "./index.js"
+    },
+    "dependencies": {
+        "chalk": "^3.0.0",
+        "fs-extra": "^8.1.0",
+        "log-update": "^3.3.0"
+    }
 }

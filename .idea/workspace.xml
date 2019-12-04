@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edc147a5-63aa-4de3-a1de-79f9dbb0c86d" name="Default Changelist" comment="" />
+    <list default="true" id="edc147a5-63aa-4de3-a1de-79f9dbb0c86d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scaffolding/.brewkit/theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffolding/app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolding/app/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffolding/config/webpack/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolding/config/webpack/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffolding/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffolding/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolding/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,17 +29,23 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
     <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TZ7BjLET1gNam624dT66pFHtZG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scaffolding/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/scaffolding/config" />
       <recent name="$PROJECT_DIR$/scaffolding/app/src" />
       <recent name="$PROJECT_DIR$/scaffolding" />
@@ -60,10 +76,28 @@
       <workItem from="1573655630751" duration="808000" />
       <workItem from="1573658019700" duration="6106000" />
       <workItem from="1573772855389" duration="6000" />
+      <workItem from="1574183491095" duration="680000" />
+      <workItem from="1575398434078" duration="97000" />
+      <workItem from="1575398564130" duration="3352000" />
+      <workItem from="1575402053629" duration="81000" />
+      <workItem from="1575402153028" duration="7110000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
