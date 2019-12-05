@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edc147a5-63aa-4de3-a1de-79f9dbb0c86d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scaffolding/.brewkit/theme.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolding/app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolding/app/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolding/config/webpack/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolding/config/webpack/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolding/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolding/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolding/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffolding/app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolding/app/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +76,7 @@
       <workItem from="1575398434078" duration="97000" />
       <workItem from="1575398564130" duration="3352000" />
       <workItem from="1575402053629" duration="81000" />
-      <workItem from="1575402153028" duration="7110000" />
+      <workItem from="1575402153028" duration="23490000" />
     </task>
     <servers />
   </component>

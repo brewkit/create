@@ -1,6 +1,6 @@
 {
     "name": "@brewkit/create",
-    "version": "1.0.20",
+    "version": "1.0.26",
     "description": "Create a ready-to-go Brewkit project without any additional configuration.",
     "main": "index.js",
     "repository": {
@@ -19,6 +19,7 @@
     "dependencies": {
         "chalk": "^3.0.0",
         "fs-extra": "^8.1.0",
+        "inquirer": "^7.0.0",
         "log-update": "^3.3.0"
     }
 }
