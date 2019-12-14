@@ -1,3 +1,6 @@
+# Scaffolding specifics
+scaffolding/package-lock.json
+
 # Logs
 logs
 *.log
@@ -21,7 +24,7 @@ coverage
 **/node_modules/**
 
 # Webstorm metadata
-**/.idea/
+**/.idea/**
 
 # Mac files
 .DS_Store
