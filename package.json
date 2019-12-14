@@ -7,19 +7,26 @@
         "type": "git",
         "url": "https://github.com/brewkit/create"
     },
-    "author": "lawren",
+    "author": "Lawren Anderson",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Snap-AV/brewkit/issues"
-    },
-    "homepage": "https://github.com/Snap-AV/brewkit#readme",
     "bin": {
         "create": "./index.js"
+    },
+    "scripts": {
+        "commit": "npx git-cz"
     },
     "dependencies": {
         "chalk": "^3.0.0",
         "fs-extra": "^8.1.0",
         "inquirer": "^7.0.0",
         "log-update": "^3.3.0"
+    },
+    "devDependencies": {
+        "cz-conventional-changelog": "^3.0.2"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
     }
 }
