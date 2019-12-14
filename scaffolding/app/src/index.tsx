@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter } from 'react-router-dom';
-import { Typography, Button } from '@brewkit/components/src/components';
+import Main from './scenes/main';
 
 
 const render: any = () => {
@@ -11,8 +11,7 @@ const render: any = () => {
     if (rootElement) {
         ReactDOM.render(
             <HashRouter>
-                <Typography>Hello world!</Typography>
-                <Button>Foo</Button>
+                <Main />
             </HashRouter>,
         rootElement,
         );
